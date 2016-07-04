@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ahsk.xcodeproj">
+      location = "self:/Users/jehrenstein/Desktop/ahsk/ahsk.xcodeproj">
    </FileRef>
 </Workspace>
