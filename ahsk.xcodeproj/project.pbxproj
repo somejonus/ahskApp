@@ -35,9 +35,6 @@
 		6A283FD01CEF158E00FE8C69 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A283FB91CEF158E00FE8C69 /* SwiftRegex.swift */; };
 		6A283FD11CEF158E00FE8C69 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A283FBA1CEF158E00FE8C69 /* WebSocket.swift */; };
 		6A283FD31CEF167000FE8C69 /* ahnswerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A283FD21CEF167000FE8C69 /* ahnswerController.swift */; };
-		6A283FDB1CEF386400FE8C69 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A283FD51CEF386400FE8C69 /* BaseCell.swift */; };
-		6A283FDE1CEF386400FE8C69 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A283FD81CEF386400FE8C69 /* ChatCell.swift */; };
-		6A283FDF1CEF386400FE8C69 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A283FD91CEF386400FE8C69 /* ChatCell.xib */; };
 		6A40A6F51CE3305300B431B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A6F41CE3305300B431B8 /* AppDelegate.swift */; };
 		6A40A6F71CE3305300B431B8 /* ahskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A6F61CE3305300B431B8 /* ahskController.swift */; };
 		6A40A6FA1CE3305400B431B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A40A6F81CE3305400B431B8 /* Main.storyboard */; };
@@ -46,6 +43,9 @@
 		6A40A70A1CE3305400B431B8 /* ahskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A7091CE3305400B431B8 /* ahskTests.swift */; };
 		6A4EAF821CFC690400003C7F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EAF811CFC690400003C7F /* SWRevealViewController.m */; };
 		6A69AED71D2A709F002A176C /* replyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69AED61D2A709F002A176C /* replyController.swift */; };
+		6AA3944A1D2A771A006E5800 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA394471D2A771A006E5800 /* BaseCell.swift */; };
+		6AA3944B1D2A771A006E5800 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA394481D2A771A006E5800 /* ChatCell.swift */; };
+		6AA3944C1D2A771A006E5800 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA394491D2A771A006E5800 /* ChatCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,9 +88,6 @@
 		6A283FB91CEF158E00FE8C69 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
 		6A283FBA1CEF158E00FE8C69 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		6A283FD21CEF167000FE8C69 /* ahnswerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ahnswerController.swift; sourceTree = "<group>"; };
-		6A283FD51CEF386400FE8C69 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
-		6A283FD81CEF386400FE8C69 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
-		6A283FD91CEF386400FE8C69 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
 		6A40A6F11CE3305300B431B8 /* ahsk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ahsk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A40A6F41CE3305300B431B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A40A6F61CE3305300B431B8 /* ahskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ahskController.swift; sourceTree = "<group>"; };
@@ -105,6 +102,9 @@
 		6A4EAF811CFC690400003C7F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		6A4EAF881CFC6F6600003C7F /* ahsk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ahsk-Bridging-Header.h"; sourceTree = "<group>"; };
 		6A69AED61D2A709F002A176C /* replyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = replyController.swift; sourceTree = "<group>"; };
+		6AA394471D2A771A006E5800 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCell.swift; path = ahsk/BaseCell.swift; sourceTree = SOURCE_ROOT; };
+		6AA394481D2A771A006E5800 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatCell.swift; path = ahsk/ChatCell.swift; sourceTree = SOURCE_ROOT; };
+		6AA394491D2A771A006E5800 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatCell.xib; path = ahsk/ChatCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,9 +180,9 @@
 		6A283FDA1CEF386400FE8C69 /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6A283FD51CEF386400FE8C69 /* BaseCell.swift */,
-				6A283FD81CEF386400FE8C69 /* ChatCell.swift */,
-				6A283FD91CEF386400FE8C69 /* ChatCell.xib */,
+				6AA394471D2A771A006E5800 /* BaseCell.swift */,
+				6AA394481D2A771A006E5800 /* ChatCell.swift */,
+				6AA394491D2A771A006E5800 /* ChatCell.xib */,
 			);
 			name = "Custom Cells";
 			path = "../../../../../Downloads/Starter Project/SocketChat/SocketChat";
@@ -331,7 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A40A6FF1CE3305400B431B8 /* LaunchScreen.storyboard in Resources */,
-				6A283FDF1CEF386400FE8C69 /* ChatCell.xib in Resources */,
+				6AA3944C1D2A771A006E5800 /* ChatCell.xib in Resources */,
 				6A40A6FC1CE3305400B431B8 /* Assets.xcassets in Resources */,
 				6A23CE661D257AEE0063DBBC /* Info.plist in Resources */,
 				6A40A6FA1CE3305400B431B8 /* Main.storyboard in Resources */,
@@ -365,13 +365,12 @@
 				6A283FCE1CEF158E00FE8C69 /* SocketTypes.swift in Sources */,
 				6A283FA21CEF157100FE8C69 /* SocketIOManager.swift in Sources */,
 				6A283FBE1CEF158E00FE8C69 /* SocketAnyEvent.swift in Sources */,
-				6A283FDB1CEF386400FE8C69 /* BaseCell.swift in Sources */,
 				6A283FCB1CEF158E00FE8C69 /* SocketPacket.swift in Sources */,
 				6A283FC01CEF158E00FE8C69 /* SocketEngineClient.swift in Sources */,
 				6A40A6F71CE3305300B431B8 /* ahskController.swift in Sources */,
 				6A283FD11CEF158E00FE8C69 /* WebSocket.swift in Sources */,
+				6AA3944B1D2A771A006E5800 /* ChatCell.swift in Sources */,
 				6A283FBC1CEF158E00FE8C69 /* SocketAckEmitter.swift in Sources */,
-				6A283FDE1CEF386400FE8C69 /* ChatCell.swift in Sources */,
 				6A283FCF1CEF158E00FE8C69 /* String.swift in Sources */,
 				6A283FC21CEF158E00FE8C69 /* SocketEnginePollable.swift in Sources */,
 				6A69AED71D2A709F002A176C /* replyController.swift in Sources */,
@@ -380,6 +379,7 @@
 				6A283FBF1CEF158E00FE8C69 /* SocketEngine.swift in Sources */,
 				6A283FC51CEF158E00FE8C69 /* SocketEventHandler.swift in Sources */,
 				6A4EAF821CFC690400003C7F /* SWRevealViewController.m in Sources */,
+				6AA3944A1D2A771A006E5800 /* BaseCell.swift in Sources */,
 				6A40A6F51CE3305300B431B8 /* AppDelegate.swift in Sources */,
 				6A283FBD1CEF158E00FE8C69 /* SocketAckManager.swift in Sources */,
 				6A23CE681D257AEE0063DBBC /* KeychainWrapper.swift in Sources */,
