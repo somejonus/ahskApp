@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AhskViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate {
+class replyViewController: UIViewController, UITableViewDelegate, UIGestureRecognizerDelegate {
     
     
     
